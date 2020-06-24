@@ -1,4 +1,20 @@
-# Sentiment Analysis of Tweets - Ish  
+# Sentiment Analysis of Tweets  
+
+A sentiment analyser model built as a part of project at [AQM](http://www.aqm.io). Idea was to train the model on 
+the [Sentiment140](http://help.sentiment140.com/for-students) dataset, and test on a Kaggle Airlie tweets dataset. 
+Using different tweets set helps in understanding if the model will work on domain specific tweets or not.  
+
+Separate scripts were created for different models (details below), starting from a basic Logistic Regression model to 
+a complex word-embedding trained Recurrent Neural Network. Accuracy for all the models was fairly good, however, a
+ test case was build to check the outputs of the model.  
+ 
+The model parameters were further saved to load the model and perform sentiment analysis.   
+
+**Future prospects:**  
+1) Improve model at character level encoding.  
+2) Build a flask/django based web application to perform sentiment analysis.  
+3) Try more pre-trained word embedding models.  
+4) Try BERT or its variations to get better model.     
 
 ## Folder structure:   
 1) **Root**: Main folder containing Readme and scripts.  
@@ -44,7 +60,7 @@ thus can work with large data set.
 Validation accuracy is good but test accuracy was worse (62%).  
 
 =======================================================  
-**[NeuralNet.py](https://github.com/AQM-Repos/SentimentAnalysis2020/blob/master/Ish/NeuralNet.py)**:   
+**[NeuralNet.py](https://github.com/ishmukul/SentimentAnalysis2020/blob/master/Ish/NeuralNet.py)**:   
 A multi layer dense neural network for sentiment classification.  
 Using BagofWords approach, therefore limited to 100K tweets for memory issues.
 
