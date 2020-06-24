@@ -91,11 +91,11 @@ Test ~ 76%
 Changing vocabulary size is not affecting accuracies. Tried 20K also but model starts overfitting.  
 Loss function and Accuracies are plotted in Figures:  
 [Embedding_accuracy_10KVoc.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_accuracy_10KVoc.png)    
-[Embedding_loss_10KVoc.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_loss_10KVoc.png)  
+[Embedding_loss_10KVoc.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_Loss_10KVoc.png)  
 [Embedding_accuracy_20KVoc.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_accuracy_20KVoc.png)  
-[Embedding_loss_20KVoc.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_loss_20KVoc.png)   
-<img src="https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_accuracy_10KVoc.png" alt="Embedding accuracy" width="200"/>
-<img src="https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_loss_10KVoc.png" alt="Embedding Loss" width="200"/>  
+[Embedding_loss_20KVoc.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_Loss_20KVoc.png)   
+<img src="https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_accuracy_10KVoc.png" alt="Embedding accuracy" width="200"/> 
+<img src="https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_Loss_10KVoc.png" alt="Embedding Loss" width="200"/>  
 
 
 
@@ -108,9 +108,9 @@ Script saves model, model weights and tokenizer in 'models' folder. These parame
 
 Loss function and Accuracies are plotted in Figures:  
 [RNN_Embedding_accuracy.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/RNN_Embedding_accuracy.png)  
-[RNN_Embedding_loss.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/RNN_Embedding_loss.png)   
-<img src="https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/RNN_Embedding_accuracy.png" alt="RNN accuracy" width="200"/>
-<img src="https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/RNN_Embedding_loss.png" alt="RNN Loss" width="200"/>  
+[RNN_Embedding_loss.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/RNN_Embedding_Loss.png)   
+<img src="https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/RNN_Embedding_accuracy.png" alt="RNN accuracy" width="200"/> 
+<img src="https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/RNN_Embedding_Loss.png" alt="RNN Loss" width="200"/>  
 
 
 This model can classify between a combination of neg-pos words.   
