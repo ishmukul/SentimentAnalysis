@@ -1,14 +1,10 @@
 # Sentiment Analysis of Tweets  
 
-A sentiment analyser model built as a part of project at [AQM](http://www.aqm.io). Idea was to train the model on 
-the [Sentiment140](http://help.sentiment140.com/for-students) dataset, and test on a Kaggle Airlie tweets dataset. 
-Using different tweets set helps in understanding if the model will work on domain specific tweets or not.  
+A sentiment analyser model built as a part of project at [AQM](http://www.aqm.io). Idea was to train the model on the [Sentiment140](http://help.sentiment140.com/for-students) dataset, and test on a Kaggle Airlie tweets dataset. Using different tweets set helps in understanding if the model will work on domain specific tweets or not.  
 
-Separate scripts were created for different models (details below), starting from a basic Logistic Regression model to 
-a complex word-embedding trained Recurrent Neural Network. Accuracy for all the models was fairly good, however, a
- test case was build to check the outputs of the model.  
+Separate scripts were created for different models (details below), starting from a basic Logistic Regression model to a complex word-embedding trained Recurrent Neural Network. Accuracy for all the models was fairly good, however, a test case was build to check if the model can retain relation between combination of negative nad positive words. For example, a pair of neg-pos words in the sentence , namely, ''not good'' should be negative and ''not bad'' as positive.   
  
-The model parameters were further saved to load the model and perform sentiment analysis.   
+The model parameters were further saved to load the model and perform sentiment analysis. This is useful for building a web-based or fast analyser.   
 
 **Future prospects:**  
 1) Improve model at character level encoding.  
