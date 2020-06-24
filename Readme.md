@@ -74,6 +74,8 @@ Cases of Overfitting exists.
 Loss function and Accuracies are plotted in Figures:  
 [NN_accuracy.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/NN_accuracy.png)    
 [NN_loss.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/NN_loss.png)  
+<img src="https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/NN_accuracy.png" alt="NN accuracy" width="200"/>
+<img src="https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/NN_loss.png" alt="NN Loss" width="200"/>  
 
 
 =======================================================  
@@ -92,6 +94,8 @@ Loss function and Accuracies are plotted in Figures:
 [Embedding_loss_10KVoc.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_loss_10KVoc.png)  
 [Embedding_accuracy_20KVoc.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_accuracy_20KVoc.png)  
 [Embedding_loss_20KVoc.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_loss_20KVoc.png)   
+<img src="https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_accuracy_10KVoc.png" alt="Embedding accuracy" width="200"/>
+<img src="https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/Embedding_loss_10KVoc.png" alt="Embedding Loss" width="200"/>  
 
 
 
@@ -105,6 +109,9 @@ Script saves model, model weights and tokenizer in 'models' folder. These parame
 Loss function and Accuracies are plotted in Figures:  
 [RNN_Embedding_accuracy.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/RNN_Embedding_accuracy.png)  
 [RNN_Embedding_loss.png](https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/RNN_Embedding_loss.png)   
+<img src="https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/RNN_Embedding_accuracy.png" alt="RNN accuracy" width="200"/>
+<img src="https://github.com/ishmukul/SentimentAnalysis/blob/master/figures/RNN_Embedding_loss.png" alt="RNN Loss" width="200"/>  
+
 
 This model can classify between a combination of neg-pos words.   
 All other models simple models failed to do so.
